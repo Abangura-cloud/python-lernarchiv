@@ -1,0 +1,31 @@
+{
+    "zeitstempel": "2026-11-14 21:33:37",
+    "ergebnisse": [
+        {
+            "host": "google.com",
+            "latenz_ms": 1512.8,
+            "online": true
+        },
+        {
+            "host": "github.com",
+            "latenz_ms": 31.4,
+            "online": true
+        },
+        {
+            "host": "python.org",
+            "latenz_ms": 85.1,
+            "online": true
+        },
+        {
+            "host": "wikipedia.org",
+            "latenz_ms": 162.3,
+            "online": true
+        },
+        {
+            "host": "db-magdeburg-01",
+            "latenz_ms": 12.4,
+            "online": true,
+            "datenbank_typ": "PostgreSQL"
+        }
+    ]
+}
