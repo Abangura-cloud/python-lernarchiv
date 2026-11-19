@@ -6,6 +6,7 @@ import json
 import socket
 from unittest.mock import MagicMock, patch
 
+from main import STANDARD_HOSTS, lade_ziel_hosts
 from models import DatabaseServer, Server
 from scanner import pruefe_server_live
 from storage import schreibe_log, speichere_json
@@ -85,4 +86,14 @@ def test_schreibe_log_und_speichere_json(tmp_path):
     assert len(json_daten["ergebnisse"]) == 2
     assert json_daten["ergebnisse"][0]["host"] == "github.com"
     assert json_daten["ergebnisse"][1]["datenbank_typ"] == "PostgreSQL"
+
+    # --- 4. Tests für main.py Konfiguration ---
+
+def test_lade_ziel_hosts_aus_json_und_fallback(tmp_path):
+    config_datei = tmp_path / "custom_hosts.json"
+    config_datei.write_text(json.dumps({"hosts": ["example.org", "debian.org"]}), encoding="utf-8")
+
+    assert lade_ziel_hosts(str(config_datei)) == ["example.org", "debian.org"]
+    assert lade_ziel_hosts(str(tmp_path / "nicht_vorhanden.json")) == STANDARD_HOSTS
+
 
