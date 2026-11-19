@@ -1,24 +1,24 @@
 {
-    "zeitstempel": "2026-11-15 00:13:18",
+    "zeitstempel": "2026-11-19 20:53:13",
     "ergebnisse": [
         {
             "host": "google.com",
-            "latenz_ms": 174.9,
+            "latenz_ms": 236.7,
             "online": true
         },
         {
             "host": "github.com",
-            "latenz_ms": 29.1,
+            "latenz_ms": 224.1,
             "online": true
         },
         {
             "host": "python.org",
-            "latenz_ms": 31.7,
+            "latenz_ms": 233.3,
             "online": true
         },
         {
             "host": "wikipedia.org",
-            "latenz_ms": 153.6,
+            "latenz_ms": 229.7,
             "online": true
         },
         {

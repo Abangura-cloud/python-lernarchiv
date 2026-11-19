@@ -10,3 +10,15 @@
 [OK     ] python.org      -> 31.7 ms
 [LANGSAM] wikipedia.org   -> 153.6 ms
 [OK     ] db-magdeburg-01 -> 12.4 ms | DB: PostgreSQL
+=== Scan vom 2026-11-18 21:45:10 ===
+[LANGSAM] google.com      -> 236.6 ms
+[LANGSAM] github.com      -> 226.9 ms
+[LANGSAM] python.org      -> 206.7 ms
+[LANGSAM] wikipedia.org   -> 252.6 ms
+[OK     ] db-magdeburg-01 -> 12.4 ms | DB: PostgreSQL
+=== Scan vom 2026-11-19 20:53:13 ===
+[LANGSAM] google.com      -> 236.7 ms
+[LANGSAM] github.com      -> 224.1 ms
+[LANGSAM] python.org      -> 233.3 ms
+[LANGSAM] wikipedia.org   -> 229.7 ms
+[OK     ] db-magdeburg-01 -> 12.4 ms | DB: PostgreSQL
