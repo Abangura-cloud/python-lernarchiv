@@ -1,4 +1,4 @@
-# Python LernArchiv (Modules 2 – 6)
+# Python LernArchiv (Modules 2 – 7)
 
 ![Python CI](https://github.com)
 
@@ -49,3 +49,8 @@ python -m pytest -v
 - **`modul6_threading_lock.py`** — Preventing race conditions with `threading.Lock` and `ThreadPoolExecutor`.
 - **`modul6_asyncio_vergleich.py`** — Direct performance benchmark comparing `threading` vs. `asyncio.gather`.
  
+### Module 7 — Encodings, Structured Formats & CLI Automation
+
+- **modul7_encoding_robust.py** — Explicit UTF-8 handling, text vs. binary modes (`str` vs. `bytes`), and resilient file reading with `errors="replace"`.
+- **modul7_csv_json_yaml.py** — Reading, writing, and comparing flat tabular data (`csv`) against typed/hierarchical formats (`json`, `yaml.safe_load`).
+- **modul7_json_datetime.py** — Serializing `datetime` objects to ISO-8601 strings in JSON (`default=str`, custom serializer, `datetime.fromisoformat()`).
