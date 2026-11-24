@@ -55,3 +55,4 @@ python -m pytest -v
 - **modul7_csv_json_yaml.py** — Reading, writing, and comparing flat tabular data (`csv`) against typed/hierarchical formats (`json`, `yaml.safe_load`).
 - **modul7_json_datetime.py** — Serializing `datetime` objects to ISO-8601 strings in JSON (`default=str`, custom serializer, `datetime.fromisoformat()`).
 - **modul7_argparse_logging.py** — Building reusable CLI scripts with `argparse` (`choices`, positional/optional flags) and `logging` separated from `stdout`.
+- **modul7_idempotenz.py** — Designing idempotent automation scripts that verify state before writing so repeated scheduler runs never cause duplicate side effects.
