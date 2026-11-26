@@ -57,3 +57,6 @@ python -m pytest -v
 - **modul7_argparse_logging.py** — Building reusable CLI scripts with `argparse` (`choices`, positional/optional flags) and `logging` separated from `stdout`.
 - **modul7_idempotenz.py** — Designing idempotent automation scripts that verify state before writing so repeated scheduler runs never cause duplicate side effects.
 - **modul7_backup_automation.py** — Unattended cross-platform backup script combining `subprocess.run` (`tar -czf`), `pathlib`, daily idempotency checks, `logging` with full tracebacks, and distinct exit codes.
+### Module 8 — Data Science & Numerical Computing
+
+- **modul8_numpy.py** — NumPy array creation (`np.array`, `np.arange`), vectorization, and benchmark comparing pure Python loops against `np.sum()`.
